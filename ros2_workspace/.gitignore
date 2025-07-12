@@ -1,0 +1,40 @@
+# ROS 2 build artifacts
+build/
+install/
+log/
+
+# Python bytecode and caches
+__pycache__/
+*.pyc
+
+# Python packaging artifacts
+*.egg-info/
+*.eggs/
+dist/
+*.egg
+
+# Colcon/ament artifacts
+COLCON_IGNORE
+colcon_command_prefix_*.sh
+*.dsv
+*.ps1
+*.bash
+*.zsh
+*.sh
+*_setup_util_*.py
+local_setup.*
+
+# IDE / editor settings (optional)
+.vscode/
+.idea/
+
+# OS / editor swap files (optional)
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test / coverage caches
+pytest_cache/
+.cache/
+

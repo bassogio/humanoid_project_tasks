@@ -39,3 +39,38 @@ Navigate to your workspace root:
 ```bash
 colcon build
 source install/setup.bash
+
+---
+
+## How to Run
+
+Open **two separate terminals**:
+
+###  Terminal 1 - Run the Publisher Node
+
+This node samples your CPU load at `sampling_rate` (R1) and publishes to `/myHWtopic` at `publish_rate` (R2):
+
+```bash
+ros2 run hardware_data hardware_data_pub
+
+You can also override parameters using:
+
+```bash
+ros2 run hardware_data hardware_data_pub --ros-args -p sampling_rate:=2.0 -p publish_rate:=1.0
+
+Example output:
+
+```bash
+[INFO] [hardware_data_pub_node]: Published: 'CPU Load: 18.7%'
+
+###  Terminal 2 - Run the Subscriber Node
+
+This node listens on /myHWtopic and prints received messages to stdout:
+
+```bash
+ros2 run hardware_data hardware_data_sub
+
+Example output:
+
+```bash
+[INFO] [hardware_data_sub_node]: Received: 'CPU Load: 18.7%'
