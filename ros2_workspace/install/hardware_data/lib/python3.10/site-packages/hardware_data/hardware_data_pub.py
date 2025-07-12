@@ -42,7 +42,7 @@ class HardwareDataPublisherNode(Node):
         # Timers for sampling and publishing
         # -------------------------------------------
         self.sampling_timer = self.create_timer(1.0 / self.sampling_rate, self.sample_cpu_load)
-        self.publish_timer  = self.create_timer(1.0 / self.publish_rate,  self.publish_message)
+        self.publish_timer  = self.create_timer(1.0 / self.publish_rate, self.publish_message)
 
     # -------------------------------------------
     # Sampling Callback (R1 rate)
