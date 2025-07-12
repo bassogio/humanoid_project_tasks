@@ -14,12 +14,13 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='orin_nano1',
-    maintainer_email='giordanoschool@gmail.com',
+    maintainer_email='basso.gio97@gmail.com',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'hardware_data_pub = hardware_data.hardware_data_pub:main',
         ],
     },
 )

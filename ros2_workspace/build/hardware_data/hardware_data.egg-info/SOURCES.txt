@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/hardware_data/hardware_data.egg-info/PKG-INFO
+../../build/hardware_data/hardware_data.egg-info/SOURCES.txt
+../../build/hardware_data/hardware_data.egg-info/dependency_links.txt
+../../build/hardware_data/hardware_data.egg-info/entry_points.txt
+../../build/hardware_data/hardware_data.egg-info/requires.txt
+../../build/hardware_data/hardware_data.egg-info/top_level.txt
+../../build/hardware_data/hardware_data.egg-info/zip-safe
+hardware_data/__init__.py
+hardware_data/hardware_data_pub.py
+hardware_data/hardware_data_sub.py
+resource/hardware_data
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

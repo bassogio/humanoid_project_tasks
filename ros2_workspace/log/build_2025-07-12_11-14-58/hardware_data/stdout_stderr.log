@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/hardware_data/hardware_data.egg-info
+writing ../../build/hardware_data/hardware_data.egg-info/PKG-INFO
+writing dependency_links to ../../build/hardware_data/hardware_data.egg-info/dependency_links.txt
+writing entry points to ../../build/hardware_data/hardware_data.egg-info/entry_points.txt
+writing requirements to ../../build/hardware_data/hardware_data.egg-info/requires.txt
+writing top-level names to ../../build/hardware_data/hardware_data.egg-info/top_level.txt
+writing manifest file '../../build/hardware_data/hardware_data.egg-info/SOURCES.txt'
+reading manifest file '../../build/hardware_data/hardware_data.egg-info/SOURCES.txt'
+writing manifest file '../../build/hardware_data/hardware_data.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/orin_nano1/humanoid/ros2_workspace/build/hardware_data/build
+creating /home/orin_nano1/humanoid/ros2_workspace/build/hardware_data/build/lib
+creating /home/orin_nano1/humanoid/ros2_workspace/build/hardware_data/build/lib/hardware_data
+copying hardware_data/__init__.py -> /home/orin_nano1/humanoid/ros2_workspace/build/hardware_data/build/lib/hardware_data
+copying hardware_data/hardware_data_sub.py -> /home/orin_nano1/humanoid/ros2_workspace/build/hardware_data/build/lib/hardware_data
+copying hardware_data/hardware_data_pub.py -> /home/orin_nano1/humanoid/ros2_workspace/build/hardware_data/build/lib/hardware_data
+running install
+running install_lib
+creating /home/orin_nano1/humanoid/ros2_workspace/install/hardware_data/lib/python3.10/site-packages/hardware_data
+copying /home/orin_nano1/humanoid/ros2_workspace/build/hardware_data/build/lib/hardware_data/__init__.py -> /home/orin_nano1/humanoid/ros2_workspace/install/hardware_data/lib/python3.10/site-packages/hardware_data
+copying /home/orin_nano1/humanoid/ros2_workspace/build/hardware_data/build/lib/hardware_data/hardware_data_sub.py -> /home/orin_nano1/humanoid/ros2_workspace/install/hardware_data/lib/python3.10/site-packages/hardware_data
+copying /home/orin_nano1/humanoid/ros2_workspace/build/hardware_data/build/lib/hardware_data/hardware_data_pub.py -> /home/orin_nano1/humanoid/ros2_workspace/install/hardware_data/lib/python3.10/site-packages/hardware_data
+byte-compiling /home/orin_nano1/humanoid/ros2_workspace/install/hardware_data/lib/python3.10/site-packages/hardware_data/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/orin_nano1/humanoid/ros2_workspace/install/hardware_data/lib/python3.10/site-packages/hardware_data/hardware_data_sub.py to hardware_data_sub.cpython-310.pyc
+byte-compiling /home/orin_nano1/humanoid/ros2_workspace/install/hardware_data/lib/python3.10/site-packages/hardware_data/hardware_data_pub.py to hardware_data_pub.cpython-310.pyc
+running install_data
+creating /home/orin_nano1/humanoid/ros2_workspace/install/hardware_data/share/ament_index
+creating /home/orin_nano1/humanoid/ros2_workspace/install/hardware_data/share/ament_index/resource_index
+creating /home/orin_nano1/humanoid/ros2_workspace/install/hardware_data/share/ament_index/resource_index/packages
+copying resource/hardware_data -> /home/orin_nano1/humanoid/ros2_workspace/install/hardware_data/share/ament_index/resource_index/packages
+copying package.xml -> /home/orin_nano1/humanoid/ros2_workspace/install/hardware_data/share/hardware_data
+running install_egg_info
+Copying ../../build/hardware_data/hardware_data.egg-info to /home/orin_nano1/humanoid/ros2_workspace/install/hardware_data/lib/python3.10/site-packages/hardware_data-0.0.0-py3.10.egg-info
+running install_scripts
+Installing hardware_data_pub script to /home/orin_nano1/humanoid/ros2_workspace/install/hardware_data/lib/hardware_data
+writing list of installed files to '/home/orin_nano1/humanoid/ros2_workspace/build/hardware_data/install.log'

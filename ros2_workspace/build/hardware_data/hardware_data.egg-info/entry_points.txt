@@ -1,0 +1,3 @@
+[console_scripts]
+hardware_data_pub = hardware_data.hardware_data_pub:main
+
