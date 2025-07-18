@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'hardware_data'
+package_name = 'basic_task'
 
 setup(
     name=package_name,
@@ -20,8 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'hardware_data_pub = hardware_data.hardware_data_pub:main',
-            'hardware_data_sub = hardware_data.hardware_data_sub:main',
+            'hardware_data_pub = basic_task.hardware_data_pub:main',
+            'hardware_data_sub = basic_task.hardware_data_sub:main',
         ],
     },
 )
