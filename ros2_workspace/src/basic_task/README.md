@@ -85,3 +85,6 @@ Example output:
 ```bash
 [INFO] [hardware_data_sub_node]: Received: 'CPU Load: 18.7%'
 ```
+
+
+[watch the video](./running_example.mkv)
